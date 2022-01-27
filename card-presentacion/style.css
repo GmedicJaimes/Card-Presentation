@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-family:  sans-serif;
+}
+body {
+    background: linear-gradient(to bottom right, #B87FED, #521EF5)
+}
+section {
+    margin: 120px;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 380px;
+    height: 580px;
+    background: #D6D6D6;
+
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+
+    border: 5px solid white;
+}
+.card img {
+    width: 400px;
+    height: 200px;
+}
+/* Section text */
+.card h1 {
+    position: absolute;
+    top: 280px;
+    left: 80px;
+
+    font-size: 180%;
+    font-weight: 700;
+    color: #434BF1;
+}
+.card p:nth-child(3) {
+    position: absolute;
+
+    color: #000000;
+    top: 320px;
+    left: 100px;
+
+    font-weight: 650;
+    font-size: 120%;
+}
+.card p:nth-child(4) {
+    position: absolute;
+
+    color: #000000;
+    top: 340px;
+    left: 118px;
+
+    font-weight: 700;
+    font-size: 100%;
+}
+/* Section img profile */
+.imagen img {
+    width: 130px;
+    height: 130px;
+
+    border-radius: 50%;
+    border: 5px solid white;
+
+    position: absolute;
+    top: 255px;
+    left: 730px;
+}
+
+/* Section Followers */
+.follow {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    justify-content: space-evenly;
+    background-color: #3317D1;
+    color: white;
+    
+    width: 344px;
+    height: 80px;
+
+    position: absolute;
+    top: 500px;
+    left: 620px;
+    border-radius: 20px;
+    border: 3px solid white;
+}   
+.followers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    top: 20px;
+    left: 72px;
+
+    font-weight: 700;
+}
+.following {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    top: 20px;
+    left: 240px;
+
+    font-weight: 700;
+}
+.name span:nth-child(1) {
+    font-size: 100%;
+    color: white; 
+
+    position: absolute;
+    top: 540px;
+    left: 675px;
+}
+.name span:nth-child(2) {
+    font-size: 100%; 
+    color: white;
+
+    position: absolute;
+    top: 540px;
+    left: 845px;
+}
+/* Section button */
+button {
+    position: absolute;
+    top: 590px;
+    left: 720px;
+
+    width: 150px;
+    height: 60px;
+
+    border-radius: 20px;
+    font-size: 110%;
+    font-weight: 700;
+    border: 2px solid white;
+    background: #287AF8 ;
+    color: white;
+}
